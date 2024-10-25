@@ -1,4 +1,4 @@
-@import url(./foonts.css);
+@import url(./fonts.css);
 
 * {
     margin: 0;
@@ -14,9 +14,8 @@
     padding: 0 15px;
 }
 
-
 .nav {
-    background: #322e32;
+    background: #322E41;
 }
 
 .nav_box {
@@ -43,11 +42,11 @@
 
 .nav_link:hover {
     background-color: #fff;
-    color: #d47300;
+    color: #D47300;
 }
 
 .intro {
-    background-image: url(../images/nike\ 0.png);
+    background-image: url(../images/intro_img.png);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,8 +58,7 @@
     justify-content: center;
 }
 
-
-.intro_title {
+.intr_title {
     margin-bottom: 15px;
     font-size: 50px;
     font-weight: 700;
@@ -77,12 +75,12 @@
     font-weight: 700;
 }
 
-main {
+.main {
     background-color: #EBEBEB;
 }
 
 .nike_left {
-    background: #fff;
+    background: #FFFFFF;
     border-radius: 6px;
     padding: 15px;
     max-width: 540px;
@@ -95,7 +93,7 @@ main {
     line-height: 25.78px;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #322e32;
+    color: #2C2A2A;
 }
 
 .nike_text {
@@ -112,7 +110,7 @@ main {
 }
 
 .nike_card {
-    background: #fff;
+    background: #FFFFFF;
     border-radius: 6px;
     width: 255px;
     text-align: center;
@@ -143,10 +141,6 @@ main {
     font-weight: 400;
     line-height: 16px;
     color: #9B9B9B;
-}
-
-.nike_card_img img {
-    width: 66px;
 }
 
 .nike_right {
@@ -230,4 +224,14 @@ main {
 .footer_social {
     display: flex;
     gap: 40px;
+}
+
+.menu {
+    background-color: unset;
+    border: none;
+    display: none;
+}
+
+.menu img {
+    width: 30px;
 }
